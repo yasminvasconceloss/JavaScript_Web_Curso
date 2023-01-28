@@ -1,0 +1,22 @@
+const saudacao = 'olá'
+
+function exec() {
+    const saudacao = 'oi'
+    return saudacao
+
+}
+
+// Objetos = grupos de pares nome/valor
+const cliente = {
+    nome: 'Laura',
+    idade: 18.,
+    endereco: {
+        rua: 'Rua...',
+        numero: 56
+    }
+}
+
+console.log(saudacao)
+console.log(exec())
+console.log(cliente)
+
